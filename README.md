@@ -1,10 +1,10 @@
-# JaneBiz Studio
+# JaneBiz — เจนประกอบการ
 
-Responsive Thai-language landing page for JaneBiz Studio.
+Landing page for JaneBiz, a solo AI-assisted product content service for online shops, starting with home and lifestyle products.
 
 ## Run locally
 
-Open `index.html` in a browser, or start a static server from this directory:
+Open `index.html` in a browser or start a local static server:
 
 ```sh
 python -m http.server 8000
@@ -14,4 +14,4 @@ Then visit <http://localhost:8000>.
 
 ## Customize
 
-Update the studio description, services, and contact address in `index.html`. The layout and responsive styles are in `styles.css`; the mobile navigation behavior is in `script.js`.
+Edit service details and contact links in `index.html`; responsive layout and visual styles are in `styles.css`. The mobile navigation and footer year are handled in `script.js`.
