@@ -72,3 +72,13 @@ body{background:var(--paper);color:var(--ink)}
 @media(max-width:680px){.footer-top{flex-wrap:wrap;gap:8px}.footer-brand{gap:12px}.footer-brand .brand-logo{width:65px;height:65px;flex-basis:65px}.footer-brand .brand-name{font-size:19px}.footer-brand .brand-name small{font-size:10px}.footer-brand .footer-slogan{font-size:10px;margin-top:2px}.footer-copyright{font-size:9px;margin-left:auto}}
 .contact-small{margin-top:18px;font-size:12px;font-weight:500;color:#526178}.contact-small a{display:inline-block;padding:3px 0;font-size:16px;font-weight:700;color:#102849;text-decoration-thickness:1.5px;text-underline-offset:4px}
 @media(max-width:680px){.contact-small{margin-top:16px;font-size:11px}.contact-small a{font-size:15px}}
+.site-nav{font-size:13px;color:#364256}.section-aside{font-size:14px;color:#45536a;line-height:1.8}
+.offer-label{font-size:10px;letter-spacing:.09em}.offer-main h3{font-size:40px}.offer-desc{font-size:13px;color:#39485d}.offer-price span{font-size:11px;color:#526178}.price-note{font-size:11px;color:#4c5b70}
+.details-title{font-size:14px;margin-bottom:8px;color:#102849}.included-list li>span{font-size:10px}.included-list b{font-size:13px;color:#142843}.included-list small{font-size:12px;line-height:1.7;color:#526178}
+.deliverables{margin:14px 0 8px;padding:13px 15px;background:#f4f0e7;border-left:3px solid #b18b4c;font-size:12px;line-height:1.8;color:#45536a}.deliverables b{font-size:12px;color:#102849}.revision-note{font-size:11px;line-height:1.8;color:#526178}.revision-note b{color:#102849}.offer-cta{font-size:12px}.offer-footnote{font-size:11px;color:#526178}
+.steps p,.fit-card li,.fit-card p{font-size:12px}.contact-copy{font-size:14px}
+@media(max-width:680px){.site-nav{font-size:14px}.offer-main h3{font-size:36px}.included-list b{font-size:13px}.included-list small{font-size:12px}.deliverables{font-size:12px}.contact-copy{font-size:13px}}
+.eyebrow{font-size:10px;color:#647085}.site-nav{color:#fff8e8}.intro-copy{color:#3f4b5e}.offer-label{font-size:11px}.offer-price span{font-size:12px}.price-note{font-size:12px}
+@media(max-width:680px){.price-note{font-size:11px}}
+.hero .eyebrow{color:#647085}.hero .hero-lede,.hero .hero-note{color:#46546b}.hero .hero-image-note{color:#3c4d67}.hero .hero-note{font-size:12px}
+@media(max-width:680px){.hero .hero-note{font-size:11px}}
