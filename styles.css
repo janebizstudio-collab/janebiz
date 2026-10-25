@@ -39,3 +39,11 @@ body{background:var(--paper);color:var(--ink)}
 .fit{background:#f7f4ec}.fit-yes{background:#eee8db;border-color:#e2d8c5}.fit-note{background:#edf0f4;border-color:#dce2e9}
 .contact{background:linear-gradient(120deg,#eee8dc,#f5f1e8);color:var(--ink);border-top:1px solid #ded3bd}.contact .eyebrow{color:#8b6c38}.contact h2 em{color:#9a7538}.contact-copy{color:#5d6a7e}.button-light{background:#b18b4c;color:#fffdf8}.button-light:hover{background:#9a7538}.contact-small{color:#687489}.contact-small a{color:#152640;text-decoration-color:#a9823e}.contact-mark{color:#1028490b}.contact-mark span{color:#ad884408}
 @media(max-width:680px){.hero{background:linear-gradient(145deg,#f8f5ee,#f0eadf)}.offer-main{background:linear-gradient(145deg,#efe6d4,#e9dfca)}.process{background:#e9edf2}.contact{background:linear-gradient(145deg,#eee8dc,#f5f1e8)}}
+:root{--display:'Noto Serif Thai',serif}
+.hero h1,.intro h2,.section-heading h2,.process h2,.fit h2,.contact h2,.offer-main h3{font-family:var(--display);font-weight:500;letter-spacing:-.025em;line-height:1.48}
+.hero h1{font-size:clamp(50px,6vw,79px);line-height:1.42;letter-spacing:-.035em}
+.hero h1 em,.section-heading em,.intro h2 em,.process h2 em,.fit h2 em,.contact h2 em{font-family:var(--display);font-style:normal;font-weight:400;letter-spacing:-.02em}
+.intro h2,.section-heading h2,.process h2,.fit h2,.contact h2{line-height:1.55}
+.offer-main h3{font-size:36px;line-height:1.48}
+.intro-copy{font-size:14px;line-height:2}.section-aside{font-size:12px;line-height:2}.offer-desc{font-size:12px;line-height:1.9}.included-list small{font-size:11px;line-height:1.85}.deliverables{font-size:11px;line-height:1.9}.revision-note,.price-note{font-size:10px;line-height:1.8}.process-intro>p:last-child{font-size:13px;line-height:2}.steps p{font-size:11px;line-height:1.9}.fit-card li,.fit-card p{font-size:11px;line-height:1.9}.contact-copy{font-size:12px;line-height:2}.contact-small{font-size:10px}.site-footer{font-size:10px;letter-spacing:.01em}
+@media(max-width:680px){.hero h1{font-size:clamp(42px,10.3vw,54px);line-height:1.5;letter-spacing:-.035em}.intro h2,.section-heading h2,.process h2,.fit h2,.contact h2{line-height:1.55}.intro-copy{font-size:13px}.section-aside,.offer-desc{font-size:12px}.included-list small,.deliverables,.steps p,.fit-card li,.fit-card p{font-size:11px}.contact-copy{font-size:12px}}
