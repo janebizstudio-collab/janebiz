@@ -137,6 +137,9 @@ body{color:#243249;background:var(--paper)}
   .site-nav{background:#091b33;color:#fffdf8}
   .hero-lede,.intro-copy{font-size:14px;line-height:1.9}
   .section-aside,.offer-desc,.included-list small,.deliverables,.revision-note,.price-note,.steps p,.fit-card li,.fit-card p,.work-copy p,.full-work-copy>p{font-size:12px;line-height:1.8}
+  .portfolio-intro{font-size:14px;line-height:1.9}
+  .work-copy p,.full-work-copy>p{font-size:13px;line-height:1.85}
+  .work-duration{font-size:10px}
   .contact-copy{font-size:14px}
   .work-script ol{font-size:13px}
   .hero-note{margin-top:21px;font-size:11px}
