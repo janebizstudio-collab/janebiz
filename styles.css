@@ -144,3 +144,26 @@ body{color:#243249;background:var(--paper)}
   .work-script ol{font-size:13px}
   .hero-note{margin-top:21px;font-size:11px}
 }
+
+/* Three clearly differentiated service packages */
+.package-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
+.package-card{display:flex;min-width:0;flex-direction:column;padding:25px 22px 22px;background:#fffdf8;border:1px solid #ddd4c4;box-shadow:0 12px 32px #12243d0b}
+.package-featured{border:1.5px solid #a9823e;background:linear-gradient(165deg,#fffdf8 0%,#f4efe3 100%);box-shadow:0 15px 36px #80612d18}
+.package-kicker{margin:0 0 9px;color:#80612d;font-size:11px;font-weight:700;letter-spacing:.04em}
+.package-card h3{margin:0;color:#12243d;font-family:var(--display);font-size:25px;font-weight:500;line-height:1.45}
+.package-en{margin:2px 0 10px;color:#68758a;font:600 10px/1.5 var(--latin);letter-spacing:.1em}
+.package-summary{min-height:48px;margin:0 0 16px;color:#46556b;font-size:13px;line-height:1.8}
+.package-length{display:flex;flex-direction:column;gap:2px;margin:0 0 14px;padding:10px 12px;background:#f1ede4;border-left:3px solid #a9823e;color:#46556b;font-size:12px;line-height:1.7}
+.package-length strong{color:#12243d;font-size:14px}
+.package-price{display:flex;align-items:end;justify-content:space-between;gap:8px;padding:0 0 14px;border-bottom:1px solid #e5ddce}
+.package-price>span{color:#536177;font-size:12px}
+.package-price strong{color:#12243d;font:700 31px/1.2 var(--latin);letter-spacing:-.04em;white-space:nowrap}
+.package-price small{color:#46556b;font:500 13px var(--font);letter-spacing:0}
+.package-list{display:grid;gap:11px;list-style:none;margin:17px 0 22px;padding:0}
+.package-list li{position:relative;padding-left:21px;color:#46556b;font-size:13px;line-height:1.75}
+.package-list li::before{position:absolute;top:0;left:0;color:#80612d;content:"✓";font-weight:700}
+.package-cta{width:100%;justify-content:center;margin-top:auto;padding:12px 14px;background:#132d4d;font-size:13px}
+.package-cta:hover{background:#1b3c63}
+.package-note{margin:18px 0 0;color:#536177;font-size:12px;line-height:1.8}
+@media(max-width:1050px){.package-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.package-featured{grid-column:1/-1}}
+@media(max-width:680px){.package-grid{grid-template-columns:1fr;gap:14px}.package-featured{grid-column:auto}.package-card{padding:21px 19px 19px}.package-summary{min-height:0;font-size:14px}.package-length,.package-list li{font-size:13px}.package-price strong{font-size:29px}.package-list{gap:9px}.package-note{font-size:13px}}
